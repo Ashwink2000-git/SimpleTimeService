@@ -31,3 +31,22 @@ A simple microservice that returns current timestamp and visitor's IP address in
  ```
 
 
+## How to Use This Service
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/SimpleTimeService.git
+   cd SimpleTimeService
+   ```
+2. Build and run the Docker container as shown in the README.
+3. Test the service:
+   ```bash
+   curl http://localhost:8080
+   ```
+4.To stop the service:
+   ```bash
+   docker stop <container-id>
+   ```
+
+   
+
