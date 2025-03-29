@@ -20,3 +20,7 @@ A simple microservice that returns current timestamp and visitor's IP address in
 1. Build the Docker image:
    ```bash
    docker build -t simple-time-service .
+2.Run the container:
+ ```bash
+   docker run -p 8080:8080 simple-time-service
+
